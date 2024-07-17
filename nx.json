@@ -32,30 +32,13 @@
     "@nx/jest:jest": {
       "cache": true,
       "inputs": ["default", "^production", "{workspaceRoot}/jest.preset.js"],
-      "options": {
-        "passWithNoTests": true
-      },
-      "configurations": {
-        "ci": {
-          "ci": true,
-          "codeCoverage": true
-        }
-      }
+      "options": { "passWithNoTests": true },
+      "configurations": { "ci": { "ci": true, "codeCoverage": true } }
     }
   },
   "plugins": [
-    {
-      "plugin": "@nx/playwright/plugin",
-      "options": {
-        "targetName": "e2e"
-      }
-    },
-    {
-      "plugin": "@nx/eslint/plugin",
-      "options": {
-        "targetName": "lint"
-      }
-    }
+    { "plugin": "@nx/playwright/plugin", "options": { "targetName": "e2e" } },
+    { "plugin": "@nx/eslint/plugin", "options": { "targetName": "lint" } }
   ],
   "generators": {
     "@nx/angular:application": {
@@ -65,6 +48,6 @@
       "unitTestRunner": "jest"
     }
   },
-  "nxCloudAccessToken": "NGE1MTA2ZjctYjUyZC00MzI1LTg2YmEtZWUyYzczZGZiNmM5fHJlYWQtd3JpdGU=",
+  "nxCloudAccessToken": "YzgzY2UwMWUtMWI1NC00MDZiLTliZmUtZjE1N2Q4NDhmOThlfHJlYWQtd3JpdGU=",
   "nxCloudUrl": "https://d2c7-2601-547-cb01-d030-295b-e484-73ee-1e2f.ngrok-free.app"
 }
