@@ -48,6 +48,6 @@
       "unitTestRunner": "jest"
     }
   },
-  "nxCloudAccessToken": "YzgzY2UwMWUtMWI1NC00MDZiLTliZmUtZjE1N2Q4NDhmOThlfHJlYWQtd3JpdGU=",
-  "nxCloudUrl": "https://staging.nx.app"
+  "nxCloudAccessToken": "N2IzNGQ5OTgtOTQwZi00NTRkLWE5ZDktZDhmMWU3N2VkYTJifHJlYWQtd3JpdGU=",
+  "nxCloudUrl": "http://localhost:4202"
 }
