@@ -48,6 +48,5 @@
       "unitTestRunner": "jest"
     }
   },
-  "nxCloudAccessToken": "ZWNhNTBkNDktMGJiYy00MGE4LTkwMDAtNzEwOWYzN2ZkZDk4fHJlYWQtd3JpdGU=",
-  "nxCloudUrl": "https://staging.nx.app"
+  "nxCloudAccessToken": "ZWNhNTBkNDktMGJiYy00MGE4LTkwMDAtNzEwOWYzN2ZkZDk4fHJlYWQtd3JpdGU="
 }
